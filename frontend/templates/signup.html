@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Авторизация</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../src/css/login.css">
+</head>
+<body id="body">
+
+<main>
+  <div class="container">
+    <div class="logo">
+      <img src="../static/images/logo.png" alt="logo">
+    </div>
+    <form action="" class="login">
+      <h1 class="entry">Создайте аккаунт</h1>
+      <div class="form-inputs">
+        <div class="form-input">
+          <div class="form-image">
+            <img src="../static/images/person.svg" alt="">
+          </div>
+          <input type="text" id="name" placeholder="ФИО">
+        </div>
+        <div class="form-input">
+          <div class="form-image">
+            <img src="../static/images/mail.svg" alt="">
+          </div>
+          <input type="text" id="email" placeholder="Электронная почта">
+        </div>
+        <div class="form-input">
+          <div class="form-image">
+            <img src="../static/images/lock.svg" alt="" class="lock">
+          </div>
+          <input type="password" id="password" placeholder="Пароль">
+        </div>
+        <div class="form-input">
+          <div class="form-image">
+            <img src="../static/images/lock.svg" alt="" class="lock">
+          </div>
+          <input type="password" id="password-confirm" placeholder="Подтверждение пароля">
+        </div>
+
+        <div class="form-button">
+          <button type="button" id="signup">Войти</button>
+        </div>
+        <div class="no-account">
+          Уже есть аккаунт? <a href="login.html">Войдите в систему</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</main>
+
+
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../src/js/common.js"></script>
+<script src="../src/js/signup.js"></script>
+</body>
+</html>

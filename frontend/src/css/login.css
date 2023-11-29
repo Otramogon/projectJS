@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    margin: 250px auto 60px auto;
+}
+
+.login {
+    max-width: 400px;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.entry {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #052C65;
+}
+
+.form-input {
+    display: grid;
+    grid-template-columns: 38px 1fr;
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-input .form-image {
+    background-color: #E9ECEF;
+    width: 38px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-right: 1px solid #CED4DA;
+}
+
+.form-input img {
+    position: relative;
+    top: 4px;
+    width: 15px;
+    height: 15px;
+}
+
+.form-input .lock {
+    width: 15px;
+    height: 17px;
+}
+
+.form-input input {
+    border: 0;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.form-input input:focus {
+    outline: none;
+}
+
+.checkbox {
+    text-align: left;
+    margin-bottom: 20px;
+}
+.checkbox input {
+    position: relative;
+    top: 1px;
+    margin-right: 11px;
+}
+
+.form-button button {
+    width: 400px;
+    height: 37px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background-color: #0D6EFD;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.no-account {
+    text-align: left;
+}
+
+.no-account a {
+    margin-left: 10px;
+    color: #0D6EFD;
+    border-bottom: 1px solid #0D6EFD;
+    text-decoration: none;
+}
+
+.error {
+    border: 1px solid red !important;
+}
